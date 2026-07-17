@@ -1,0 +1,21 @@
+{
+  "name": "infinite-whiteboard",
+  "version": "1.0.0",
+  "description": "A high-performance, locally-hosted infinite whiteboard with a dark cyberpunk aesthetic.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/print-lan.js dev && vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "serve": "node scripts/print-lan.js serve && node server/server.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
