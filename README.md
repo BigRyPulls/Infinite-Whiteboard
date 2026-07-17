@@ -13,6 +13,7 @@ Canvas2D for maximum performance with minimal dependencies.
 ## Quick start
 
 ```bash
+Extract the .zip and run the below from root
 npm install
 npm run dev
 ```
