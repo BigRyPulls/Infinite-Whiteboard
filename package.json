@@ -1,7 +1,7 @@
 {
   "name": "infinite-whiteboard",
-  "version": "1.0.0",
-  "description": "A high-performance, locally-hosted infinite whiteboard with a dark cyberpunk aesthetic.",
+  "version": "0.1.0",
+  "description": "Personal WIP: a local-first infinite whiteboard for drawing, sketches and waypoint-based navigation.",
   "type": "module",
   "private": true,
   "scripts": {
